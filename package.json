@@ -1,0 +1,20 @@
+{
+  "name": "28blocksmigration",
+  "version": "1.0.0",
+  "description": "[users-combined.csv](https://raw.githubusercontent.com/enjalot/blockbuilder-search-index/master/data/users-combined.csv) is from https://github.com/enjalot/blockbuilder-search-index/blob/master/data/users-combined.csv .",
+  "main": "migrate.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier {*.*,**/*.*} --single-quote --write",
+    "migrate": "node ./migrate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "octokit": "^2.0.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  }
+}
